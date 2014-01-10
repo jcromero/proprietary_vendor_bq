@@ -15,73 +15,7 @@
 
 # Binaries
 PRODUCT_COPY_FILES += \
-    vendor/bq/edison2qc/proprietary/bin/vold:system/bin/vold \
     vendor/bq/edison2qc/proprietary/bin/akmd:system/bin/akmd
-
-# Framework
-#PRODUCT_COPY_FILES += \
-#    vendor/bq/edison2qc/proprietary/framework/dolby_ds.jar:system/framework/dolby_ds.jar
-
-# Libraries
-PRODUCT_COPY_FILES += \
-    vendor/bq/edison2qc/proprietary/lib/libion.so:system/lib/libion.so \
-    vendor/bq/edison2qc/proprietary/lib/libjpeghwdec.so:system/lib/libjpeghwdec.so \
-    vendor/bq/edison2qc/proprietary/lib/libjpeghwenc.so:system/lib/libjpeghwenc.so \
-    vendor/bq/edison2qc/proprietary/lib/libOMX_Core.so:system/lib/libOMX_Core.so \
-    vendor/bq/edison2qc/proprietary/lib/libomxvpu.so:system/lib/libomxvpu.so \
-    vendor/bq/edison2qc/proprietary/lib/libomxvpu_enc.so:system/lib/libomxvpu_enc.so \
-    vendor/bq/edison2qc/proprietary/lib/librkswscale.so:system/lib/librkswscale.so \
-    vendor/bq/edison2qc/proprietary/lib/libvpu.so:system/lib/libvpu.so \
-    vendor/bq/edison2qc/proprietary/lib/libyuvtorgb.so:system/lib/libyuvtorgb.so \
-    vendor/bq/edison2qc/proprietary/lib/registry:system/lib/registry
-
-# Stagefright
-PRODUCT_COPY_FILES += \
-    vendor/bq/edison2qc/proprietary/lib/libapedec.so:system/lib/libapedec.so \
-    vendor/bq/edison2qc/proprietary/lib/libhtml5_check.so:system/lib/libhtml5_check.so \
-    vendor/bq/edison2qc/proprietary/lib/libmediaplayerservice.so:system/lib/libmediaplayerservice.so \
-    vendor/bq/edison2qc/proprietary/lib/librkwmapro.so:system/lib/librkwmapro.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefright.so:system/lib/libstagefright.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefright_amrnb_common.so:system/lib/libstagefright_amrnb_common.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefright_avc_common.so:system/lib/libstagefright_avc_common.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefright_chromium_http.so:system/lib/libstagefright_chromium_http.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefright_enc_common.so:system/lib/libstagefright_enc_common.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefright_foundation.so:system/lib/libstagefright_foundation.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefright_omx.so:system/lib/libstagefright_omx.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefright_soft_aacdec.so:system/lib/libstagefright_soft_aacdec.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefright_soft_aacenc.so:system/lib/libstagefright_soft_aacenc.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefright_soft_amrdec.so:system/lib/libstagefright_soft_amrdec.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefright_soft_amrnbenc.so:system/lib/libstagefright_soft_amrnbenc.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefright_soft_amrwbenc.so:system/lib/libstagefright_soft_amrwbenc.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefright_soft_flacenc.so:system/lib/libstagefright_soft_flacenc.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefright_soft_g711dec.so:system/lib/libstagefright_soft_g711dec.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefright_soft_h264dec.so:system/lib/libstagefright_soft_h264dec.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefright_soft_h264enc.so:system/lib/libstagefright_soft_h264enc.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefright_soft_mp3dec.so:system/lib/libstagefright_soft_mp3dec.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefright_soft_mpeg4dec.so:system/lib/libstagefright_soft_mpeg4dec.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefright_soft_mpeg4enc.so:system/lib/libstagefright_soft_mpeg4enc.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefright_soft_rawdec.so:system/lib/libstagefright_soft_rawdec.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefright_soft_vorbisdec.so:system/lib/libstagefright_soft_vorbisdec.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefright_soft_vpxdec.so:system/lib/libstagefright_soft_vpxdec.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefright_wfd.so:system/lib/libstagefright_wfd.so \
-    vendor/bq/edison2qc/proprietary/lib/libstagefright_yuv.so:system/lib/libstagefright_yuv.so
-
-# DRM
-PRODUCT_COPY_FILES += \
-    vendor/bq/edison2qc/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-    vendor/bq/edison2qc/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/bq/edison2qc/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/bq/edison2qc/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/bq/edison2qc/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so
-
-# Mali
-PRODUCT_COPY_FILES += \
-    vendor/bq/edison2qc/proprietary/lib/libMali.so:system/lib/libMali.so \
-    vendor/bq/edison2qc/proprietary/lib/libUMP.so:system/lib/libUMP.so \
-    vendor/bq/edison2qc/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
-    vendor/bq/edison2qc/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
-    vendor/bq/edison2qc/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so
 
 # HAL
 PRODUCT_COPY_FILES += \
@@ -91,10 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/edison2qc/proprietary/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
     vendor/bq/edison2qc/proprietary/lib/hw/audio_policy.rk30board.so:system/lib/hw/audio_policy.rk30board.so \
     vendor/bq/edison2qc/proprietary/lib/hw/audio.primary.rk30board.so:system/lib/hw/audio.primary.rk30board.so \
-    vendor/bq/edison2qc/proprietary/lib/hw/camera.rk30board.so:system/lib/hw/camera.rk30board.so \
-    vendor/bq/edison2qc/proprietary/lib/hw/gpu.rk30board.so:system/lib/hw/gpu.rk30board.so \
-    vendor/bq/edison2qc/proprietary/lib/hw/gralloc.rk30board.so:system/lib/hw/gralloc.rk30board.so \
-    vendor/bq/edison2qc/proprietary/lib/hw/hwcomposer.rk30board.so:system/lib/hw/hwcomposer.rk30board.so \
     vendor/bq/edison2qc/proprietary/lib/hw/lights.rk30board.so:system/lib/hw/lights.rk30board.so \
     vendor/bq/edison2qc/proprietary/lib/hw/power.rk30xx.so:system/lib/hw/power.rk30xx.so \
     vendor/bq/edison2qc/proprietary/lib/hw/sensors.rk30board.so:system/lib/hw/sensors.rk30board.so
@@ -103,15 +33,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/bq/edison2qc/proprietary/lib/modules/mali.ko:system/lib/modules/mali.ko \
     vendor/bq/edison2qc/proprietary/lib/modules/rk29-ipp.ko:system/lib/modules/rk29-ipp.ko \
-    vendor/bq/edison2qc/proprietary/lib/modules/rk30_mirroring.ko:system/lib/modules/rk30_mirroring.ko \
+    vendor/bq/edison2qc/proprietary/lib/modules/rk30_mirroring.ko.3.0.36+:system/lib/modules/rk30_mirroring.ko.3.0.36+ \
     vendor/bq/edison2qc/proprietary/lib/modules/rkwifi.ko:system/lib/modules/rkwifi.ko \
     vendor/bq/edison2qc/proprietary/lib/modules/ump.ko:system/lib/modules/ump.ko \
     vendor/bq/edison2qc/proprietary/lib/modules/vpu_service.ko:system/lib/modules/vpu_service.ko
-
-# Firmware
-PRODUCT_COPY_FILES += \
-    vendor/bq/edison2qc/proprietary/etc/firmware/BCM4330B1.hcd:system/etc/firmware/BCM4330B1.hcd \
-    vendor/bq/edison2qc/proprietary/etc/firmware/fw_RK903b2.bin:system/etc/firmware/fw_RK903b2.bin \
-    vendor/bq/edison2qc/proprietary/etc/firmware/fw_RK903b2_apsta.bin:system/etc/firmware/fw_RK903b2_apsta.bin \
-    vendor/bq/edison2qc/proprietary/etc/firmware/fw_RK903b2_p2p.bin:system/etc/firmware/fw_RK903b2_p2p.bin \
-    vendor/bq/edison2qc/proprietary/etc/firmware/nvram_RK903_26M.cal:system/etc/firmware/nvram_RK903_26M.cal
