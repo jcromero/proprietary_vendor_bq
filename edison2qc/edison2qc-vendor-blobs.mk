@@ -68,8 +68,8 @@ PRODUCT_COPY_FILES += \
     vendor/bq/edison2qc/proprietary/lib/hw/gpu.rk30board.so:system/lib/hw/gpu.rk30board.so \
     vendor/bq/edison2qc/proprietary/lib/hw/gralloc.rk30board.so:system/lib/hw/gralloc.rk30board.so \
     vendor/bq/edison2qc/proprietary/lib/hw/hwcomposer.rk30board.so:system/lib/hw/hwcomposer.rk30board.so \
-    vendor/bq/edison2qc/proprietary/lib/hw/lights.rk30board.so:system/lib/hw/lights.rk30board.so
-    vendor/bq/edison2qc/proprietary/lib/hw/power.rk30xx.so:system/lib/hw/power.rk30xx.so
+    vendor/bq/edison2qc/proprietary/lib/hw/lights.rk30board.so:system/lib/hw/lights.rk30board.so \
+    vendor/bq/edison2qc/proprietary/lib/hw/power.rk30xx.so:system/lib/hw/power.rk30xx.so \
     vendor/bq/edison2qc/proprietary/lib/hw/sensors.rk30board.so:system/lib/hw/sensors.rk30board.so
 
 # Modules
